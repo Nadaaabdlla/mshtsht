@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="Assets/logo.jpg">
+        <link rel="stylesheet" href="Table-reservation.css">
+        <title>Mshtsht</title>
+    </head>
+<body>
+    <header>
+        <img id="logo" src="Assets/logo.jpg" alt="website's logo">
+        <h1 id="main-title">Mshtsht</h1>
+    </header>
+    <div>
+       <form action="index.html">
+        <h2>Table reservation</h2>
+          <!-- <label>Name:</label> -->
+          <input type="text" name="Full Name" required placeholder="Name"><br>
+          <!-- <label>Email Address:</label> -->
+          <input type="email" name="email" required placeholder="Email Address"><br>
+          <!-- <label>Number of guests:</label> -->
+          <input type="number" name="Number-of-guests" min="1" required placeholder="Number of guests"><br>
+          <!-- <label>Phone Number:</label> -->
+          <input type="tel" name="Phone Number" pattern="[0-9]{11}" required placeholder="Phone Number"><br>
+          <!-- <label>Date:</label> -->
+          <input type="date" name="Date" required><br>
+          <!-- <label>Time:</label> -->
+          <input type="time" name="Time" required><br>
+          <textarea name="Extra notes" id="Extra-notes" cols="30" rows="10" placeholder="a textarea for special requests"></textarea>
+          <br><br>
+          <input id="submit" type="submit"  value="sing up">
+        </form>
+    </div>
+</body>
+</html>

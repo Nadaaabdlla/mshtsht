@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Dangrek&family=Honk&family=Lobster&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sigmar&display=swap');
+body{
+    background-color: rgb(255, 255, 255); 
+    margin-top: -15px;
+}
+h1{
+    display: inline-block;
+    vertical-align:top;
+    margin-top: 1.5em;
+    color: rgb(189, 2, 2);
+    font-family: "Dangrek", sans-serif;
+    font-weight: 600;
+    font-size: xx-large;
+  }
+  header{
+    width: max-content;
+   
+ }
+ h2{
+    padding-left: 190px;
+
+ }
+div{
+    margin: -50px 450px;
+    border: 5px solid rgb(247, 193, 193);
+    width: 550px;
+    height: 620px;
+    box-shadow: 1px 1px 10px 0px rgb(179, 74, 74);
+    padding: 10px;
+}
+label{
+    padding-left: 150px;
+}
+textarea{
+    margin:5px 0px 0px 150px;
+    border: 0.1em solid rgb(122, 15, 15);
+    border-radius: 20px;
+    padding: 5px 30px;
+
+}
+input{
+    margin : 10px;
+    border: 0.1em solid rgb(122, 15, 15);
+    border-radius: 20px;
+    padding: 5px 50px;
+    width: 200px;
+    margin:12px 0px 12px 150px;
+}
+#submit{
+    background-color: rgb(206, 11, 11);
+    border-radius: 0.3em;
+    border-color: rgb(189, 2, 2);
+    color: rgb(240, 253, 253);
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 250px;
+    margin-top: 0%;
+}
+#submit:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    border: 0.1em solid rgb(122, 15, 15);
+    box-shadow: 1px 1px 1px 1px rgb(32, 30, 30);
+    border-radius: 10px;
+    margin-left: 250px;
+}
+
+ img{
+    border-radius: 20em;
+    display: inline-block;
+    width: 5vw;
+    height: 10vh;
+    margin: 1.5em .5em 1.5em 1.5em;
+    border: 5px solid rgb(247, 193, 193);
+ }
